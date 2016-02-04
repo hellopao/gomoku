@@ -2,4 +2,16 @@
 
 import Gomoku from "../gomoku";
 
-new Gomoku(document.getElementById('gomoku'));
+const el = document.getElementById('gomoku');
+
+const gomoku = new Gomoku(el);
+
+gomoku.addPlayer({
+    name: "Jerry"
+});
+
+gomoku.addPlayer({
+    name: "Tom"
+});
+
+gomoku.start();

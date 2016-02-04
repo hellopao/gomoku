@@ -1,6 +1,6 @@
 "use strict";
 
-import Gomoku from "../gomoku";
+import Gomoku from "../src/gomoku";
 
 const el = document.getElementById('gomoku');
 

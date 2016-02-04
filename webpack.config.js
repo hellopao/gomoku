@@ -4,7 +4,7 @@ const webpack = require('webpack');
 
 module.exports = {
     entry: {
-        index: "./test/index.js"
+        gomoku: "./src/gomoku.js"
     },
     output: {
         filename: "[name].js",

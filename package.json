@@ -1,13 +1,28 @@
 {
   "name": "gomoku",
-  "version": "1.0.0",
-  "description": "a gomoku project",
-  "main": "gomoku.js",
+  "version": "0.0.1",
+  "description": "gomoku",
+  "main": "./dist/gomoku.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hellopao/gomoku"
+  },
+  "author": {
+    "name": "qinjia",
+    "email": "qinjia@outlook.com"
+  },
+  "keywords": [
+    "gomoku"
+  ],
+  "homepage": "https://github.com/hellopao/gomoku",
+  "_id": "gomoku@0.0.1",
+  "_from": "gomoku@",
+  "dependencies": {
+  },
   "devDependencies": {
     "babel-core": "^6.4.5",
     "babel-loader": "^6.2.1",

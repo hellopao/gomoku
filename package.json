@@ -1,6 +1,6 @@
 {
   "name": "gomoku",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "gomoku",
   "main": "./dist/gomoku.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "gomoku"
   ],
   "homepage": "https://github.com/hellopao/gomoku",
-  "_id": "gomoku@0.0.1",
+  "_id": "gomoku@0.0.2",
   "_from": "gomoku@",
   "dependencies": {
   },

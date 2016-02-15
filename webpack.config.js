@@ -2,13 +2,18 @@
 
 const webpack = require('webpack');
 
+const UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
+
 module.exports = {
     entry: {
         gomoku: "./src/gomoku.js"
     },
     output: {
-        filename: "[name].js",
-        path: "./dist/"
+        filename: "gomoku.js",
+        path: "./dist/",
+        library: "gomoku",
+        libraryTarget: 'umd',
+        umdNamedDefine: true
     },
     module: {
         loaders: [
@@ -22,5 +27,6 @@ module.exports = {
                 }
             }
         ]
-    }
+    },
+    plugins: [new UglifyJsPlugin({ minimize: true })]
 };
